@@ -1,0 +1,79 @@
+body{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(
+        45deg,
+        hsl(0, 0%, 99%),
+        #1f303f
+      );
+    color: #1f303f
+}
+main{
+background:lightgray;
+}
+#title{
+    text-align: center;
+    line-height: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(87, 58, 15);
+}
+#img-div{
+    text-align: center;
+    width: auto;
+}
+#tribute-infos{
+    color: rgb(31, 53, 73);
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    width: auto;
+}
+.container{
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(43, 38, 38);
+}
+#tribute-info{
+    text-align: center;
+    float: inherit;
+    background: linear-gradient(
+      45deg,
+      #4f5050,
+      #a8a6a6
+    );
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#tribute-info a:hover{
+    color: aqua;
+}
+
+footer{
+    background: linear-gradient(
+        45deg,
+        hsl(0, 0%, 99%),
+         #1f303f
+      );
+      height: 100px;
+      margin: 5px;
+      padding: 2px;
+}
+#footer-text{
+    font-style: italic;
+    text-align: right;
+}
+  
