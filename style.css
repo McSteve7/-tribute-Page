@@ -48,8 +48,9 @@ h4{
     color: rgb(43, 38, 38);
 }
 #tribute-info{
-    text-align: center;
-    float: inherit;
+    height: 50px;
+    width: 90px;
+    border-radius: 5px;
     background: linear-gradient(
       45deg,
       #4f5050,
@@ -76,4 +77,8 @@ footer{
     font-style: italic;
     text-align: right;
 }
-  
+ @media only screen and (max-width: 500px){
+#img-div{
+    width: 100px;
+     }
+}
